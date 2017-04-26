@@ -504,13 +504,13 @@ template {
   .service__title {
     color: #060606;
     font-size: 2rem;
-    font-family: 'Arial',sans-serif;
+    font-family: 'Arial', sans-serif;
     padding-left: 30px;
     padding-right: 30px; }
   .service__text {
     color: #9a9a9a;
     font-size: 1rem;
-    font-family: 'Arial',sans-serif;
+    font-family: 'Arial', sans-serif;
     padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px; }
@@ -524,6 +524,18 @@ template {
   text-decoration: none;
   font-family: "Arial",sans-serif;
   color: #ffffff; }
+  .button--lp {
+    border: 2px solid #00b9e7;
+    background-color: none;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
+  .button--web {
+    border: 2px solid #ffcb00;
+    background-color: none;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
+  .button--eshop {
+    border: 2px solid #66bf0d;
+    background-color: none;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
   .button:focus, .button:active {
     background-color: #ffffff;
     border: 2px solid #f6ae48;
@@ -557,3 +569,52 @@ template {
     font-size: 1.5rem;
     color: #ffffff;
     font-weight: 500; }
+
+.prices {
+  position: relative; }
+  .prices__deco {
+    position: absolute;
+    left: 0px;
+    bottom: 250px;
+    background-color: #f6ae48;
+    min-width: 670px;
+    min-height: 520px;
+    margin: 0px;
+    padding: 0px; }
+    .prices__deco__title {
+      color: #ffffff;
+      font-size: 3rem;
+      padding-left: 125px;
+      padding-top: 205px;
+      padding-right: 205px;
+      letter-spacing: 0.5px;
+      font-family: 'Exo',sans-serif;
+      font-weight: bold; }
+  .prices__box {
+    width: 330px;
+    min-height: 320px;
+    background-image: url("./img/lp-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 200px 15px; }
+    .prices__box:hover {
+      transform: scale(1.2);
+      transition: all 0.5s ease; }
+  .prices__box-bg {
+    background-color: rgba(17, 19, 25, 0.5);
+    height: 320px;
+    width: 100%; }
+  .prices__title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Futura Md BT',sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    padding-top: 63px;
+    padding-left: 15px;
+    padding-right: 60px;
+    padding-bottom: 31px;
+    clear: both; }

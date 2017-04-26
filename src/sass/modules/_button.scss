@@ -8,6 +8,22 @@
     text-decoration: none;
     font-family: "Arial",sans-serif;
     color:$white;
+   
+    &--lp {
+        border:2px solid #00b9e7;
+        background-color: none;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+    }
+    &--web {
+        border:2px solid #ffcb00;
+         background-color: none;
+         box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+    }
+    &--eshop {
+        border:2px solid #66bf0d;
+         background-color: none;
+         box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+    }
     &:focus,&:active {
         
         background-color: $white;

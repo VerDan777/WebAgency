@@ -1,0 +1,65 @@
+.prices {
+    position: relative;
+    
+    &__deco {
+        position:absolute;
+        left:0px;
+        bottom:250px;
+        background-color: $orange;
+        min-width: 670px;
+        min-height: 520px;
+        margin: 0px;
+        padding: 0px; 
+       &__title {
+           color:$white;
+           font-size: 3rem;
+           padding-left: 125px;
+           padding-top:205px;
+           padding-right:205px;
+           letter-spacing: 0.5px;
+           font-family: 'Exo',sans-serif;
+           font-weight: bold;
+       }
+
+    }
+    &__box {
+        // margin-top: 205px;
+        // position: absolute;
+        // top:200px;
+        width: 330px;
+        min-height: 320px;  
+        background-image:url('./img/lp-bg.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin:200px 15px;
+        &:hover {
+
+            transform: scale(1.2);
+            transition: all 0.5s ease;
+        }
+        
+    }
+    &__box-bg {
+        background-color:rgba(#111319,0.5);
+        height:320px;
+        width: 100%;
+    }
+    &__title {
+        text-transform: uppercase;
+        color:$white;
+        font-family: 'Futura Md BT',sans-serif;
+        font-weight: bold;
+        font-size: 3rem;
+        letter-spacing: 0.5px;
+        padding-top:63px;
+        padding-left:15px;
+        padding-right:60px;
+        padding-bottom: 31px;
+        clear: both;
+
+
+    }
+
+}
