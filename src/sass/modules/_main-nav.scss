@@ -1,0 +1,36 @@
+.main-nav {
+
+     position: relative;
+
+
+    ul {
+        padding:0px;
+        margin: 0px;
+        list-style-type: none;
+        // position: fixed;
+        left:420px;
+        top:850px;
+        margin-left: 420px;
+        // border:1px solid red;
+        
+
+    }
+    li {
+        display: inline-block;
+        padding: 40px 20px;
+      
+      
+    }
+    a { 
+
+        color:$colorTitle;
+        text-decoration: none;
+        font-family: 'Futura',sans-serif;
+        font-size: 1.5rem;
+        &:hover {
+            color:$orange;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+  
+}

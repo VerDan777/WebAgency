@@ -385,7 +385,6 @@ template {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
   height: 810px;
   width: 100%; }
   .site-header__title {
@@ -413,8 +412,8 @@ template {
     position: absolute;
     top: 500px;
     left: 0px;
-    margin-left: 120px;
-    margin-right: 180px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: inline-block; }
     .site-header__features__box {
       top: 200px;
@@ -436,6 +435,38 @@ template {
 
 .wrapper {
   position: relative;
-  width: 1245px;
+  width: 1170px;
   margin: 0 auto;
-  height: 1000px; }
+  height: 100%; }
+
+.main-nav {
+  position: relative; }
+  .main-nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    left: 420px;
+    top: 850px;
+    margin-left: 420px; }
+  .main-nav li {
+    display: inline-block;
+    padding: 40px 20px; }
+  .main-nav a {
+    color: #060606;
+    text-decoration: none;
+    font-family: 'Futura',sans-serif;
+    font-size: 1.5rem; }
+    .main-nav a:hover {
+      color: #f6ae48;
+      transition: all 0.3s ease-in-out; }
+
+.about {
+  position: absolute;
+  left: 500px;
+  top: 1000px; }
+  .about__title {
+    color: #060606;
+    font-size: 3rem; }
+  .about__copy {
+    color: #313131;
+    font-size: 1rem; }

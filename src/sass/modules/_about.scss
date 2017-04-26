@@ -1,0 +1,15 @@
+.about {
+    position: absolute;
+    left:500px;
+    top:1000px;
+
+    &__title {
+        color:$colorTitle;
+        font-size: 3rem;
+
+    }
+    &__copy {
+        color:#313131;
+        font-size: 1rem;
+    }
+}
