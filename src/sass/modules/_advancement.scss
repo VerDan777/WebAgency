@@ -1,0 +1,19 @@
+.advancement  {
+    position: relative;
+    &__title {
+        color:$colorTitle;
+        font-size: 2rem;
+        font-family: 'Parangon530C',sans-serif;
+        font-weight: bold;
+    }
+     &__text  {
+        color:$colorTitle;
+        font-size: 1rem;
+        display: inline-block;
+             
+    }
+    &__partners {
+        position: absolute;
+        right:200px;
+    }
+}
