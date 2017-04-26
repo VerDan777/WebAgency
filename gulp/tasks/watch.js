@@ -6,7 +6,8 @@ gulp.task('watch', function() {
     browserSync.init({
         server: {
             baseDir: 'dist'
-        }
+        },
+        notify:false
     });
 
     // pug

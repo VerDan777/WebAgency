@@ -1,0 +1,41 @@
+.service{
+    margin: 0px;
+    padding: 200px 0px;
+    img {
+        padding-left:30px;
+        padding-right:30px;
+        display: inline-block;  
+    }
+
+    &__box {
+        display: inline-block;
+        max-width:400px;
+        height: 375px;
+        &:hover {
+        background-color: $orange;
+        cursor:pointer;
+        color:$white;
+        transition: all 0.5s ease;
+        }
+    }
+    &__title {
+        color:$colorTitle;
+        font-size: 2rem;
+        font-family: 'Arial',sans-serif;
+        padding-left:30px;
+        padding-right:30px;
+        // &:hover{
+        //     color:$white;
+        // }
+    
+    } 
+    &__text {
+        color:#9a9a9a;
+        font-size: 1rem;
+        font-family: 'Arial',sans-serif;
+        padding-bottom:40px;
+        padding-left:30px;
+        padding-right:30px;
+        
+    }
+}

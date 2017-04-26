@@ -1,15 +1,23 @@
 .about {
     position: absolute;
-    left:500px;
-    top:1000px;
+    left:0px;
+    position: relative;
+    // top:1000px;
 
     &__title {
         color:$colorTitle;
         font-size: 3rem;
+        padding-top:219px;
 
     }
     &__copy {
         color:#313131;
         font-size: 1rem;
+        padding-left: 220px;
+        display: inline;
+        position: absolute;
+        left:500px;
+        bottom:100px;
+
     }
 }

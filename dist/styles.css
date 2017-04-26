@@ -438,6 +438,9 @@ template {
   width: 1170px;
   margin: 0 auto;
   height: 100%; }
+  .wrapper--lg {
+    width: 1245px;
+    margin: 0 auto; }
 
 .main-nav {
   position: relative; }
@@ -462,11 +465,59 @@ template {
 
 .about {
   position: absolute;
-  left: 500px;
-  top: 1000px; }
+  left: 0px;
+  position: relative; }
   .about__title {
     color: #060606;
-    font-size: 3rem; }
+    font-size: 3rem;
+    padding-top: 219px; }
   .about__copy {
     color: #313131;
-    font-size: 1rem; }
+    font-size: 1rem;
+    padding-left: 220px;
+    display: inline;
+    position: absolute;
+    left: 500px;
+    bottom: 100px; }
+
+.service {
+  margin: 0px;
+  padding: 200px 0px; }
+  .service img {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block; }
+  .service__box {
+    display: inline-block;
+    max-width: 400px;
+    height: 375px; }
+    .service__box:hover {
+      background-color: #f6ae48;
+      cursor: pointer;
+      color: #ffffff;
+      transition: all 0.5s ease; }
+  .service__title {
+    color: #060606;
+    font-size: 2rem;
+    font-family: 'Arial',sans-serif;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .service__text {
+    color: #9a9a9a;
+    font-size: 1rem;
+    font-family: 'Arial',sans-serif;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px; }
+
+.button {
+  border: 2px solid #ffffff;
+  padding: 10px 10px;
+  width: 300px;
+  height: 200px;
+  margin: 0 20px;
+  text-decoration: none;
+  font-family: "Arial",sans-serif;
+  color: #ffffff; }
+  .button:hover {
+    display: inline; }
