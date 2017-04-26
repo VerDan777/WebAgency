@@ -1,0 +1,30 @@
+.credo {
+    background-image: url('./img/credo-bg.jpg');
+    z-index: 999;
+    // background: rgba($purple,0.1);
+    background-position: center center;
+    background-size: cover;
+    height:563px;
+    &__bg {
+       background: rgba($purple,0.5);
+       height: 100%;
+}
+    &__title {
+        color:$white;
+        font-family: 'Exo2',sans-serif;
+        text-align: center;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top:140px;
+        padding-bottom: 40px;
+    }
+    &__text {
+        padding-top:40px;
+        font-family: 'HelveticaNeueCyr',sans-serif;
+        font-size: 1.5rem;
+        color:$white;
+        font-weight: 500;
+        
+    }
+}

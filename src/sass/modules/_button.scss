@@ -8,6 +8,15 @@
     text-decoration: none;
     font-family: "Arial",sans-serif;
     color:$white;
+    &:focus,&:active {
+        
+        background-color: $white;
+        border: 2px solid $orange;
+        color:$orange;
+        transform: scaleY(1.5);
+        transform: rotateX(45deg);
+        // transition:all 0.5s ease;
+    } 
 
     &:hover {
         display: inline;

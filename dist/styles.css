@@ -387,6 +387,10 @@ template {
   background-repeat: no-repeat;
   height: 810px;
   width: 100%; }
+  .site-header__bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(48, 50, 99, 0.8); }
   .site-header__title {
     text-transform: uppercase;
     vertical-align: middle;
@@ -482,7 +486,8 @@ template {
 
 .service {
   margin: 0px;
-  padding: 200px 0px; }
+  padding-top: 200px;
+  padding-bottom: 250px; }
   .service img {
     padding-left: 30px;
     padding-right: 30px;
@@ -519,5 +524,36 @@ template {
   text-decoration: none;
   font-family: "Arial",sans-serif;
   color: #ffffff; }
+  .button:focus, .button:active {
+    background-color: #ffffff;
+    border: 2px solid #f6ae48;
+    color: #f6ae48;
+    transform: scaleY(1.5);
+    transform: rotateX(45deg); }
   .button:hover {
     display: inline; }
+
+.credo {
+  background-image: url("./img/credo-bg.jpg");
+  z-index: 999;
+  background-position: center center;
+  background-size: cover;
+  height: 563px; }
+  .credo__bg {
+    background: rgba(48, 50, 99, 0.5);
+    height: 100%; }
+  .credo__title {
+    color: #ffffff;
+    font-family: 'Exo2',sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 140px;
+    padding-bottom: 40px; }
+  .credo__text {
+    padding-top: 40px;
+    font-family: 'HelveticaNeueCyr',sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 500; }
