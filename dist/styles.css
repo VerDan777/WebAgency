@@ -537,6 +537,22 @@ template {
     border: 2px solid #66bf0d;
     background-color: none;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
+  .button--more {
+    background-color: #6a6b8e;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Parangon530C',sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 25px 30px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-left: 429px;
+    margin-right: 429px;
+    margin-top: 23px;
+    margin-bottom: 23px; }
   .button:focus, .button:active {
     background-color: #ffffff;
     border: 2px solid #f6ae48;
@@ -643,3 +659,25 @@ template {
     margin-left: 200px;
     margin-right: 200px;
     display: inline-block; }
+
+.projects {
+  margin-top: 340px;
+  background-color: #303263;
+  height: 120px;
+  width: 100%; }
+  .projects--bt {
+    background-color: #303263;
+    height: 120px;
+    width: 100%; }
+  .projects__title {
+    color: #ffffff;
+    font-size: 3rem;
+    padding: 23px 0px;
+    font-family: 'Parangon530C',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+  .projects__img--lg {
+    width: 942px; }
+  .projects__img--sm {
+    width: 500px; }
